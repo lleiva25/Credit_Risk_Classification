@@ -14,14 +14,14 @@ You’ll use various techniques to train and evaluate a model based on loan risk
 
 ## Process
 The Loan Lending data set contained the following columns:
-        - Loan Size
-        - Interest Rate
-        - Borrower Income
-        - Debt to income
-        - Number of Accounts
-        - Derogatory Marks
-        - Total Debt
-        - Loan Status
+        * Loan Size
+        * Interest Rate
+        * Borrower Income
+        * Debt to income
+        * Number of Accounts
+        * Derogatory Marks
+        * Total Debt
+        * Loan Status
 
 Data was split into training and testing sets by separating the data into labels and features for the column 'Loan Status'.
  * Labels represent an output value
