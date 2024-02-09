@@ -84,7 +84,7 @@ Summarize the results of the machine learning models, and include a recommendati
   
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
   
-        * When it comes to machine learning, the combination of precision and recall provides insight into which model is better for predictions, however, it isn't more important to focus on one class over the other since (0,1) are indicators of the model.
+  * When it comes to machine learning, the combination of precision and recall provides insight into which model is better for predictions, however, it isn't more important to focus on one class over the other since (0,1) are indicators of the model.
   
 If you do not recommend any of the models, please justify your reasoning.
 
