@@ -77,15 +77,4 @@ For the second model, another Logistic Regression Model was fitted with resample
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-  
-  * Machine Learning Model 2 has the highest balanced accuracy score meaning that it is a more sensitive model able to identify positives present in the classifier. However, this model does contain more false positives and less false negatives.
-  
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-  
-  * When it comes to machine learning, the combination of precision and recall provides insight into which model is better for predictions, however, it isn't more important to focus on one class over the other since (0,1) are indicators of the model.
-  
-If you do not recommend any of the models, please justify your reasoning.
-
-*Both models have precision scores under 90% for High-Risk loans, but according to the confusion matrix, we can see that Model 1 has a total number of 158 False results while Model 2 has 120. We would want to recommend Model 2 since it has the lowest number of False results.
+* Machine Learning Model 2 has the highest balanced accuracy score meaning that it is a more sensitive model able to identify positives present in the classifier. However, this model does contain more false positives and less false negatives. When it comes to machine learning, the combination of precision and recall provides insight into which model is better for predictions, however, it isn't more important to focus on one class over the other since (0,1) are indicators of the model. Both models have precision scores under 90% for High-Risk loans, but according to the confusion matrix, we can see that Model 1 has a total number of 158 False results while Model 2 has 120. We would want to recommend Model 2 since it has the lowest number of False results.
